@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'edmondsansbold';
+    src: url('edmondsans-bold-webfont.woff2') format('woff2'),
+         url('edmondsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'edmondsansmedium';
+    src: url('edmondsans-medium-webfont.woff2') format('woff2'),
+         url('edmondsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'edmondsansregular';
+    src: url('edmondsans-regular-webfont.woff2') format('woff2'),
+         url('edmondsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {
+    font-family: 'edmondsansregular', sans-serif;
+    color: #842A1C;
+    font-size: 15px;
+    margin-bottom:80px;
+    margin-top:40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: inherit;
+    margin-left: -10px;
+    float: right;
+}
+
+
+a {
+    font-family: 'edmondsansmedium', sans-serif;
+    font-size:15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:link {
+    color: #842A1C;
+}
+
+a:visited {
+    color: #842A1C;
+}
+
+a:hover {
+    color: #F59014;
+    text-decoration: none;
+}
+
+li {
+    font-family: 'edmondsansbold', sans-serif;
+    color: #842A1C;
+    text-transform: uppercase;
+    float: left;
+    display: block;
+    padding-right: 30px;
+    margin-bottom: 6px;
+    margin-top:0px;
+}
+
+.logo img {
+    width: 30%;
+    height: 30%;
+    margin-top:0px;
+}
+
+.menu {
+    position: fixed;
+    background-color: #fff;
+    z-index: 1000;
+    width: 100%;
+    padding-bottom: 10px;
+    box-shadow: 0.1px 0.1px 10px #939393;
+}  
+.container {
+    width: 1170px;
+}
+    
+
+.hoofdtitel {
+    font-family: 'edmondsansregular', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #842A1C;
+    margin-left:140px;
+    margin-top:-30px;
+    margin-bottom: -40px;
+}
+
+
+.titel {
+    font-family: 'edmondsansbold', sans-serif;
+    color: #842A1C;
+    font-size: 60px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.ondertitel {
+    font-family: 'edmondsansbold', sans-serif;
+    color: #842A1C;
+    font-size: 15px;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.logo{
+    margin-left: 50px;
+    margin-top:70px;
+    margin-bottom:100px;
+    width: 65%;
+    height:65%;
+}
+
+.boundingbox{
+    margin-top:30px;
+    margin-bottom:60px;
+    width: 80%;
+    height:80%;
+}
+
+.onjuist{
+    width:30%;
+    height:30%;
+    margin-top:40px;
+}
+
+.zwartwit{
+    width:45%;
+    height:45%;
+    margin-top:155px;
+    margin-left:0px;
+    margin-bottom:125px;
+}
+
+.typogrootreg{
+    font-family: 'edmondsansregular', sans-serif;
+    font-size:30px;
+    margin-bottom:-45px;
+}
+
+.typogrootmed{
+    font-family: 'edmondsansmedium', sans-serif;
+    font-size:30px;
+    margin-top: -40px;
+    margin-bottom:-45px;
+}
+
+.typomed{
+    font-family: 'edmondsansmedium', sans-serif;
+}
+
+.typogrootbold{
+    font-family: 'edmondsansbold', sans-serif;
+    font-size:30px;
+    margin-top: -40px;
+    margin-bottom:-45px;
+}
+
+.typobold{
+    font-family: 'edmondsansbold', sans-serif;
+}
+
+.lijn{
+    width:100%;
+    height:100%;
+    margin-top:70px;
+    margin-bottom: -100px;
+}
+
+.lijn2{
+    width:100%;
+    height:100%;
+    margin-top: -180px;
+}
+
+.redbox{
+    float:left;
+    margin:70px;
+    margin-left:75px;
+    width:80px;
+    height:80px;
+    background-color: #842A1C;
+}
+
+.orangebox{
+    float:left;
+    margin:70px;
+    margin-left:78px;
+    width:80px;
+    height:80px;
+    background-color: #F59014;
+}
+
+.yellowbox{
+    float:left;
+    margin:70px;
+    margin-left:75px;
+    width:80px;
+    height:80px;
+    background-color: #F0D582;
+}
+
+.greybox{
+    float:left;
+    margin:70px;
+    margin-left:78px;
+    width:80px;
+    height:80px;
+    background-color: #F6F6F6;
+}
+
+.kleur{
+    margin-top: -20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.kleurnaam{
+    font-family: 'edmondsansregular', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    margin-top:-50px;
+    margin-bottom: 40px;
+}
+
+.people{
+    width:40%;
+    height:40%;
+    margin-top:80px;
+    margin-bottom: 85px;
+}
+
+.bulletall{
+    width:100%;
+    height:100%;
+}
+
+.bullet{
+    width:30%;
+    height:30%;
+    margin-bottom: -5px;
+}
+
+.lijnen{
+    width:100%;
+    height:100%;
+}
+
+.bannerfb{
+    width:100%;
+    height:100%;
+    margin:120px 0px;
+}
+
+.banneryt{
+    width:100%;
+    height:100%;
+    margin:80px 0px;
+}
+
+.logoart{
+    width:10%;
+    height:10%;
+    float: right;
+    margin-top:-50px;
+}
+
+.logofooter{
+    width:10%;
+    height:10%;
+    margin-top:-10px;
+    float: left;
+}
+
+#footer {
+    font-family: 'edmondsansregular', sans-serif;
+    font-size:10px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #842A1C;
+    color: #FFF;
+    height:110px;
+    margin-top: 80px;
+    padding-top:30px;
+}

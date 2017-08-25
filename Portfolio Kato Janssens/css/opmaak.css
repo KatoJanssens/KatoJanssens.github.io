@@ -1,0 +1,289 @@
+.graphic{
+    font-family: 'Dense', sans-serif;
+    font-size: 12px;
+    color: #0D3AFF;
+    float: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top:10px;
+}
+
+p {
+    font-family: 'Dense', sans-serif;
+    font-size: 12px;
+    color: #0D3AFF;
+    float: left;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: -10px;
+    float: right;
+}
+
+a {
+    float: none;
+    color:#0D3AFF;
+    font-size: 30px;
+}
+
+a:link {
+    color:#0D3AFF;
+}
+
+a:visited {
+    color:#0D3AFF;
+}
+
+a:hover {
+    color:#FF3C00;
+}
+
+
+a li {
+    font-size: 15px;
+    float: left;
+    color:#0D3AFF;
+    text-decoration: none;
+}
+
+a li:link {
+    color:#0D3AFF;
+}
+
+a li:visited {
+    color:#0D3AFF;
+}
+
+a li:hover {
+    float:left;
+    color:#0D3AFF;
+    border-bottom: 2px dashed #FF3C00;
+}
+
+.first{
+    font-family: 'Dense', sans-serif;
+    color: #FF3C00;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float: left;
+    display: block;
+    margin-right: 30px;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+
+li {
+    font-family: 'Dense', sans-serif;
+    color: #0D3AFF;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float: left;
+    display: block;
+    margin-right: 30px;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+
+.menu {
+    position: fixed;
+    background-color: #FFEFE9;
+    z-index: 1000;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.container {
+    width: 1170px;
+}
+
+.achtergrondkleur {
+    background-color: #FFEFE9;
+    width: 100%;
+    height:950px;
+}
+
+
+
+.hoofdtitel {
+    font-family: 'Dense', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+    padding-top: 150px;
+    color: #0D3AFF;
+    margin-top: 200px;
+}
+
+.titel {
+    font-family: 'Dense', sans-serif;
+    font-size: 25px;
+    color:#0D3AFF;
+    letter-spacing: 3px;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    border-bottom: 2px dashed #FF3C00;
+}
+
+.ondertitel {
+    font-family: 'Dense', sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    float: left;
+    text-transform: uppercase;
+}
+
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+}
+
+.portfolio-box-caption {
+    font-family: 'Dense', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    color: white;
+    background: #0D3AFF;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; 
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      transform: translateY(-50%);
+      text-align: center;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+        padding: 0 15px;
+        font-family: 'Dense', sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+.portfolio-box:focus {
+    outline: none;
+}
+
+@media (min-width: 768px) {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+      font-family: 'Dense', sans-serif;
+      font-size: 16px;
+      letter-spacing: 2px;
+}
+}
+
+/*.banana{
+    width:100%;
+    height:100%;
+    margin-bottom: -1px;
+}
+
+.bourgie {
+    width:100%;
+    height:100%;
+}
+
+.data {
+    width:100%;
+    height:100%;
+}
+
+.nieuwjaar {
+    width:100%;
+    height:100%;
+}
+
+.marsman {
+    width:100%;
+    height:100%;
+}
+
+.thunder {
+    width:100%;
+    height:100%;
+}
+
+.nutris {
+    width:100%;
+    height:100%;
+}
+
+.vomfass {
+    width:100%;
+    height:100%;
+}*/
+.about {
+    font-family: 'Dense', sans-serif;
+    font-size: 12px;
+    color: #0D3AFF;
+    float: left;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+}
+
+.contact{
+    color: #FF3C00;
+}
+
+.behance{
+    width:8%;
+    height:8%;
+    margin-top:5px;
+    margin-right: 20px;
+}
+
+.behance:hover{
+    
+}
+
+.linkedin{
+    width:6%;
+    height:6%;
+    
+}
+
+#to-contact{
+    height:500px;
+    background-color: #FFEFE9;
+}
+
+#footer {
+    font-size: 15px;
+    font-family: 'Dense', sans-serif;
+    letter-spacing: 1px;
+    height:50px;
+    text-align: center;
+    background-color: #0D3AFF;
+    color: #FFF;
+    padding-top:15px;
+}
+
+
