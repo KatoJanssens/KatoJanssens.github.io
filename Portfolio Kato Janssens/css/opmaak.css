@@ -1,16 +1,32 @@
+@font-face {
+    font-family: 'denseregular';
+    src: url('../fonts/dense-regular-webfont.woff') format('woff2'),
+         url('../fonts/dense-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .graphic{
-    font-family: 'Dense', sans-serif;
+    font-family: 'denseregular', sans-serif;
     font-size: 12px;
     color: #0D3AFF;
     float: none;
     text-transform: uppercase;
     font-size: 15px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     margin-top:10px;
 }
 
+.uitleg{
+    text-transform: none;
+    float:none;
+    font-size: 17px;
+    color:#FF3C00;
+}
+
 p {
-    font-family: 'Dense', sans-serif;
+    font-family: 'denseregular', sans-serif;
     font-size: 12px;
     color: #0D3AFF;
     float: left;
@@ -23,12 +39,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: -10px;
     float: right;
 }
 
 a {
-    float: none;
+    float: center;
     color:#0D3AFF;
     font-size: 30px;
 }
@@ -68,7 +83,7 @@ a li:hover {
 }
 
 .first{
-    font-family: 'Dense', sans-serif;
+    font-family: 'denseregular', sans-serif;
     color: #FF3C00;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -80,7 +95,7 @@ a li:hover {
 }
 
 li {
-    font-family: 'Dense', sans-serif;
+    font-family: 'denseregular', sans-serif;
     color: #0D3AFF;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -102,16 +117,23 @@ li {
     width: 1170px;
 }
 
+
 .achtergrondkleur {
     background-color: #FFEFE9;
     width: 100%;
     height:950px;
 }
 
+.achtergrondkleur2 {
+    background-color: #FFEFE9;
+    width: 100%;
+    padding-bottom:200px;
+}
+
 
 
 .hoofdtitel {
-    font-family: 'Dense', sans-serif;
+    font-family: 'denseregular', sans-serif;
     font-size: 80px;
     text-transform: uppercase;
     text-align: center;
@@ -121,8 +143,19 @@ li {
     margin-top: 200px;
 }
 
+.hoofdtitel2 {
+    font-family: 'denseregular', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+    padding-top: 150px;
+    color: #FF3C00;
+    margin-top: 200px;
+}
+
 .titel {
-    font-family: 'Dense', sans-serif;
+    font-family: 'denseregular', sans-serif;
     font-size: 25px;
     color:#0D3AFF;
     letter-spacing: 3px;
@@ -134,7 +167,7 @@ li {
 }
 
 .ondertitel {
-    font-family: 'Dense', sans-serif;
+    font-family: 'denseregular', sans-serif;
     font-size: 15px;
     letter-spacing: 3px;
     float: left;
@@ -147,10 +180,11 @@ li {
   max-width: 650px;
     width:300px;
     height:300px;
+
 }
 
 .portfolio-box-caption {
-    font-family: 'Dense', sans-serif;
+    font-family: 'denseregular', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
     position: absolute;
@@ -177,7 +211,7 @@ li {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
         padding: 0 15px;
-        font-family: 'Dense', sans-serif;
+        font-family: 'denseregular', sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -194,12 +228,15 @@ li {
     outline: none;
 }
 
-@media (min-width: 768px) {
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-      font-family: 'Dense', sans-serif;
-      font-size: 16px;
-      letter-spacing: 2px;
+@media (max-width: 768px) {
+    
+    .portfolio-box {
+    
+    }
 }
+
+#to-portfolio{
+    padding-bottom: 100px;
 }
 
 .banana{
@@ -228,6 +265,12 @@ li {
     height:100%;
 }
 
+.marsmandetail{
+    width:100%;
+    height:100%;
+    padding-bottom: 30px;
+}
+
 .thunder {
     width:100%;
     height:100%;
@@ -243,7 +286,7 @@ li {
     height:100%;
 }
 .about {
-    font-family: 'Dense', sans-serif;
+    font-family: 'denseregular', sans-serif;
     font-size: 12px;
     color: #0D3AFF;
     float: left;
@@ -273,13 +316,13 @@ li {
 }
 
 #to-contact{
-    height:500px;
+    padding-bottom: 200px;
     background-color: #FFEFE9;
 }
 
 #footer {
     font-size: 15px;
-    font-family: 'Dense', sans-serif;
+    font-family: 'denseregular', sans-serif;
     letter-spacing: 1px;
     height:50px;
     text-align: center;
@@ -287,5 +330,6 @@ li {
     color: #FFF;
     padding-top:15px;
 }
+
 
 

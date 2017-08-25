@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'edmondsansbold';
-    src: url('edmondsans-bold-webfont.woff2') format('woff2'),
-         url('edmondsans-bold-webfont.woff') format('woff');
+    src: url('../fonts/edmondsans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/edmondsans-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'edmondsansmedium';
-    src: url('edmondsans-medium-webfont.woff2') format('woff2'),
-         url('edmondsans-medium-webfont.woff') format('woff');
+    src: url('../fonts/edmondsans-medium-webfont.woff2') format('woff2'),
+         url('../fontsedmondsans-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'edmondsansregular';
-    src: url('edmondsans-regular-webfont.woff2') format('woff2'),
-         url('edmondsans-regular-webfont.woff') format('woff');
+    src: url('../fonts/edmondsans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/edmondsans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
