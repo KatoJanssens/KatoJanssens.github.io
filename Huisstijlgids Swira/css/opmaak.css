@@ -271,6 +271,59 @@ li {
     height:100%;
 }
 
+.briefhoofd{
+    width:60%;
+    height:60%;
+    border:1px solid #842A1C; 
+    margin:60px 70px;
+}
+
+.enveloppe{
+    width:70%;
+    height:70%;
+    border:1px solid #842A1C; 
+    margin:175px 70px;
+}
+
+.visite{
+    width:30%;
+    height:30%;
+    border:1px solid #842A1C; 
+    margin:50px 30px;
+}
+
+.flyer{
+    width:45%;
+    height:45%;
+    border:1px solid #842A1C; 
+    margin:55px 10px;
+}
+
+.brochure{
+    width:80%;
+    height:80%;
+    border:1px solid #842A1C; 
+    margin:40px 20px;
+}
+
+.tshirt{
+    width:80%;
+    height:80%;
+    margin:37px 20px;
+}
+
+.totebag{
+    width:80%;
+    height:80%;
+    margin:37px 20px;
+}
+
+.frisbee{
+    width:80%;
+    height:80%;
+    margin:135px 20px;
+}
+
 .bannerfb{
     width:100%;
     height:100%;
